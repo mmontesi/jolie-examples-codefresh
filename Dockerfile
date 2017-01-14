@@ -1,3 +1,4 @@
-FROM jolielang/jolie1.6.0beta1
-MAINTAINER Montesi Marco
+FROM jolielang/jolie-docker-deployer
+MAINTAINER Montesi Marco <marco.montesi@gmail.com>
 EXPOSE 8000
+COPY helloservice.ol main.ol
